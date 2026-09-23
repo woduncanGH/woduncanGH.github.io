@@ -1,0 +1,56 @@
+html {
+    background-color: #010300;
+}
+
+body {
+    width: 75%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #828D7D;
+    font-family: courier;
+    color: #010300;
+
+    /* CoPilot */
+    border: 4px solid #b7ff00;
+    border-radius: 14px;
+    box-shadow:
+        0 0 4px #b7ff00,
+        0 0 12px #7fff00,
+        0 0 28px rgba(127, 255, 0, 0.9),
+        inset 0 0 8px rgba(127, 255, 0, 0.75);
+}
+
+body p {
+    font-size: 1.1rem;
+}
+
+body h2 {
+    padding-top: 20px;
+    font-size: 1.3rem;
+}
+
+header {
+    width: 50%;
+    height:100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #010300;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5rem;
+    color:#7fff00;
+    border-radius: 14px;
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    right: 1rem;
+    text-align: center;
+}
+
