@@ -65,7 +65,8 @@ p {
 
 .site-nav-links a,
 .external-links a,
-.course-website-link {
+.course-website-link,
+.copyright a {
 	display: inline;
 	color: var(--link-text);
 	font-weight: 700;
@@ -77,7 +78,9 @@ p {
 .external-links a:hover,
 .external-links a:focus-visible,
 .course-website-link:hover,
-.course-website-link:focus-visible {
+.course-website-link:focus-visible,
+.copyright a:hover,
+.copyright a:focus-visible {
 	color: var(--title-text);
 	text-decoration: underline;
 }

@@ -1,0 +1,124 @@
+body {
+    margin: 0 auto;
+    background-color: #f5f2f8;
+    color: #0C0910;
+    font-family: Garamond;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background-color: #453750;
+    color: #F5F0E8;
+}
+
+.design-firm-logo {
+    width: 76px;
+    height: 76px;
+    object-fit: contain;
+}
+
+.site-title {
+    margin: 0;
+    color: #F5F0E8;
+    font-family: Georgia;
+    font-size: 2rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.page-title {
+    margin-bottom: 1rem;
+    color: #73648A;
+    font-family: Georgia;
+    font-size: 2rem;
+}
+
+.company-description,
+.company-services {
+    margin: 0 0 1rem;
+}
+
+.company-highlights {
+    margin: 1.5rem 0;
+    padding: 1.25rem 1.5rem 1.25rem 3.25rem;
+    background-color: #e9e2f0;
+    border-radius: 8px;
+}
+
+.company-highlights li {
+    padding: 0.2rem 0;
+}
+
+.company-highlights li::marker {
+    content: "🕷️  ";
+}
+
+.contact-info {
+    margin-top: 2rem;
+    padding: 1.25rem 1.5rem;
+    background-color: #9882AC;
+    color: #0C0910;
+    font-style: normal;
+    border-radius: 8px;
+}
+
+.contact-head {
+    margin-top: 0;
+    color: #453750;
+    font-family: Georgia;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0;
+}
+
+a {
+    color: #453750;
+}
+
+a:hover {
+    color: #0C0910;
+}
+
+footer {
+    padding: 1rem 1.5rem;
+    background-color: #453750;
+    color: #F5F0E8;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.25rem 0;
+}
+
+@media (max-width: 520px) {
+    header {
+        padding: 1rem 1.25rem;
+    }
+
+    .design-firm-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .site-title {
+        font-size: 1.5rem;
+    }
+
+    main {
+        margin: 1.5rem auto;
+        padding: 0 1.25rem;
+    }
+}

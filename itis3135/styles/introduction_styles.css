@@ -64,7 +64,8 @@ p {
 }
 
 .site-nav-links a,
-.external-links a {
+.external-links a,
+.copyright a {
 	color: var(--link-text);
 	font-weight: 700;
 	text-decoration: none;
@@ -73,7 +74,9 @@ p {
 .site-nav-links a:hover,
 .site-nav-links a:focus-visible,
 .external-links a:hover,
-.external-links a:focus-visible {
+.external-links a:focus-visible,
+.copyright a:hover,
+.copyright a:focus-visible {
 	color: var(--title-text);
 	text-decoration: underline;
 }
