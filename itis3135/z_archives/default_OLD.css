@@ -9,9 +9,11 @@
 	--border: #71344d;
 }
 
+/*
 * {
 	box-sizing: border-box;
 }
+*/
 
 body {
 	max-width: 960px;
@@ -41,30 +43,16 @@ header {
 
 h1,
 h2,
-p,
-ul,
-ol,
-figure,
-blockquote {
+p {
 	margin-top: 0;
 }
 
-.site-title,
-.page-title {
+.site-title {
 	margin-bottom: 1.25rem;
 	color: var(--title-text);
 	font-family: Verdana, Geneva, sans-serif;
-	line-height: 1.2;
-}
-
-.site-title {
 	font-size: clamp(1.7rem, 4vw, 2.5rem);
-}
-
-.page-title {
-	margin-bottom: 0.5rem;
-	font-size: 2rem;
-	text-align: center;
+	line-height: 1.2;
 }
 
 .site-nav-links,
@@ -77,9 +65,7 @@ blockquote {
 
 .site-nav-links a,
 .external-links a,
-.copyright a,
-.course-website-link {
-	display: inline;
+.copyright a {
 	color: var(--link-text);
 	font-weight: 700;
 	text-decoration: none;
@@ -90,9 +76,7 @@ blockquote {
 .external-links a:hover,
 .external-links a:focus-visible,
 .copyright a:hover,
-.copyright a:focus-visible,
-.course-website-link:hover,
-.course-website-link:focus-visible {
+.copyright a:focus-visible {
 	color: var(--title-text);
 	text-decoration: underline;
 }
@@ -103,62 +87,21 @@ main {
 	background-color: var(--main-surface);
 	border: 1px solid var(--border);
 	border-radius: 8px;
-}
-
-main p,
-main ul,
-main ol,
-main blockquote,
-main figure,
-main figcaption,
-.welcome,
-.site-info,
-.personal-statement,
-.list-of-facts,
-.contract-1,
-.contract-2,
-.contract-3,
-.contract-4,
-.about-1,
-.about-2,
-.tools-and-sites {
-	color: var(--text);
-}
-
-main p,
-main ul,
-main ol,
-main blockquote,
-.about-1,
-.about-2,
-.tools-and-sites,
-.contract-1,
-.contract-2,
-.contract-3,
-.contract-4 {
-	text-align: left;
-}
-
-.welcome,
-.name-restated,
-.favorite-quote,
-figure,
-figcaption,
-.dipper-image,
-.self-image,
-.signature-art,
-.coding-art {
 	text-align: center;
 }
 
-.welcome {
-	margin: 0 0 1rem;
+.page-title {
+	margin-bottom: 0.5rem;
+	color: var(--title-text);
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 2rem;
 }
 
-.dipper-image,
-.self-image,
-.signature-art,
-.coding-art {
+.welcome {
+	color: var(--text);
+}
+
+.dipper-image {
 	display: block;
 	max-width: 100%;
 	height: auto;
@@ -171,36 +114,7 @@ figcaption,
 	max-width: 38rem;
 	margin-right: auto;
 	margin-left: auto;
-}
-
-.name-restated {
-	margin: 0 0 1rem;
-	font-size: 1.25rem;
-}
-
-figure {
-	margin: 1rem auto;
-}
-
-figcaption {
-	font-style: italic;
-	font-size: 0.9rem;
-}
-
-.personal-statement,
-.list-of-facts {
-	text-align: left;
-}
-
-.favorite-quote {
-	margin: 1rem auto;
-	animation: wave 2s ease-in-out infinite;
-}
-
-@keyframes wave {
-	50% {
-		transform: translateY(0.3rem);
-	}
+	color: var(--text);
 }
 
 .header-hr,
@@ -227,12 +141,6 @@ footer {
 	font-style: italic;
 }
 
-h6 {
-	font-size: large;
-	text-wrap: nowrap;
-	margin-top: 0;
-}
-
 @media (max-width: 600px) {
 	body {
 		padding: 1rem 0.75rem;
@@ -245,5 +153,3 @@ h6 {
 		padding-left: 1rem;
 	}
 }
-
-
