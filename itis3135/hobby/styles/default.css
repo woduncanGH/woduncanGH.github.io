@@ -119,6 +119,11 @@ main {
 	margin: 1.25rem 0;
 }
 
+.page-section ul {
+	max-width: 92ch;
+	margin: 1.25rem 0;
+}
+
 figure {
 	width: min(100%, 42rem);
 	margin: 2rem auto 0;
